@@ -98,6 +98,15 @@ if 'VIRTUAL_ENV' in os.environ:
 	execfile(activate_this, dict(__file__=activate_this))
 EOF
 
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplMapCTabSwitchBufs = 1
+let g:miniBufExplModSelTarget = 1 
+map <C-P> :bp<cr>
+map <C-N> :bn<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "generic
 

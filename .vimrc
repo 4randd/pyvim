@@ -114,6 +114,7 @@ set incsearch
 set hlsearch
 set cursorline
 set modeline
+set backspace=indent,eol,start  " make backspace work like most other apps
 
 augroup vimrcEx
 au!
@@ -167,6 +168,8 @@ nnoremap <F5> yyp<c-v>$r-
 " Underline the current line with dashes in insert mode
 inoremap <F5> <Esc>yyp<c-v>$r-A
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"color
+colorscheme inkpot
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 

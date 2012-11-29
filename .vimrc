@@ -171,7 +171,8 @@ inoremap <F5> <Esc>yyp<c-v>$r-A
 "color
 colorscheme inkpot
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
+"nerdtree strange character problem
+let g:NERDTreeDirArrows=0
 
 
 

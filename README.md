@@ -1,4 +1,4 @@
-pyvim
+pyvim(dev)
 =====
 
 vim config to be used with python
